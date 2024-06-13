@@ -1,0 +1,29 @@
+.main-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(223, 180, 124);
+  margin-top: 20px;
+  margin-left: 700px;
+  margin-right: 700px;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.main-heading {
+  color: rgb(177, 66, 22);
+}
+
+.choices {
+  margin-bottom: 30px;
+}
+.choices button {
+  font-size: 50px;
+  margin: 10px;
+  background-color: rgb(177, 66, 22);
+  border-radius: 30px;
+}
+
+.players-choice {
+  color: rgb(177, 66, 22);
+}
