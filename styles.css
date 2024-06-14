@@ -40,10 +40,19 @@
   font-weight: 600;
 }
 
-.greenText{
+.scoreDisplay{
+  display: flex;
+  align-items: baseline;
+  margin-top: 5px;
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(177, 66, 22)
+}
+
+.greenText, .playerScore{
   color: green;
 }
 
-.redText{
+.redText, .computerScore{
   color: red;
 }
